@@ -15,7 +15,7 @@ class Sprite {
       this.framesMax = framesMax
       this.framesCurrent = 0
       this.framesElapsed = 0
-      this.framesHold = 5
+      this.framesHold = 20
       this.offset = offset
     }
   
@@ -89,7 +89,7 @@ class Sprite {
       this.health = 100
       this.framesCurrent = 0
       this.framesElapsed = 0
-      this.framesHold = 5
+      this.framesHold = 30
       this.sprites = sprites
       this.dead = false
   
