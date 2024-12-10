@@ -89,7 +89,7 @@ class Sprite {
       this.health = 100
       this.framesCurrent = 0
       this.framesElapsed = 0
-      this.framesHold = 30
+      this.framesHold = 10
       this.sprites = sprites
       this.dead = false
   
@@ -148,7 +148,7 @@ class Sprite {
       // overriding all other animations with the attack animation
       if (
         this.image === this.sprites.attack1.image &&
-        this.framesCurrent < this.sprites.attack1.framesMax - 1
+        this.framesCurrent < this.sprites.attack1.framesMax - 1            
       )
         return
   
